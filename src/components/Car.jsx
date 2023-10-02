@@ -8,10 +8,12 @@ function Car() {
        <div className='h-[800px] w-[100%] border border-black m-auto'>
             <div>
                 <Navbar/>
+
             </div>
        </div>
     </div>
   )
+  
 }
 
 export default Car
