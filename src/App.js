@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Car from './components/Car';
+// import SearchBar from './components/SearchBar';
 
 function App() {
   return (
     <div className="App">
       <Car/>
-     <h1>cars page </h1>
+      {/* <SearchBar/> */}
+    
     </div>
   );
 }

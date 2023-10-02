@@ -15,3 +15,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#carpage{
+  height: 940px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#innerPage{
+  display: grid;
+
+}
+#details{
+  display: flex;
+  gap: 280px;
+}
