@@ -21,5 +21,41 @@ This project is a car search application built using React.js and styled with Ta
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/Pradyumancoder/Car--search.git
+ 
+2. Navigate to the project directory: cd Car--search
+
+3. Install project dependencies:npm install
+
+
+4. Start the development server:npm start
+
+5. Open your web browser and visit `http://localhost:3000` to see the Car Search app in action.
+
+## GitHub Repository
+
+Visit the [GitHub Repository](https://github.com/Pradyumancoder/Car--search) for more information and to access the project's source code.
+
+## Deployment
+
+The project is deployed on Vercel. You can access it [here](Vercel Link Deployed).
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or need further assistance, please feel free to contact Pradyuman at [your.email@example.com].
+
+
+
+
+
+
+
 
