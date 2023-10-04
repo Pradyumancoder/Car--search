@@ -50,7 +50,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or need further assistance, please feel free to contact Pradyuman at [your.email@example.com].
+If you have any questions or need further assistance, please feel free to contact Pradyuman at [shuklapradyuman786@gmail.com].
 
 
 
