@@ -5,9 +5,6 @@
 - React.js
 - Tailwind CSS
 
-## Deployed Vercel Link
-`[https://cars-assignment-fkeqw3b75-pradyumancoder.vercel.app/]`
-
 ## Project Overview
 
 This project is a car search application built using React.js and styled with Tailwind CSS. It allows users to search for cars and view the search results.
@@ -41,7 +38,7 @@ Visit the [GitHub Repository](https://github.com/Pradyumancoder/Car--search) for
 
 ## Deployment
 
-The project is deployed on Vercel. You can access it [here](Vercel Link Deployed).
+The project is deployed on Vercel. You can access it [here](https://cars-assignment-fkeqw3b75-pradyumancoder.vercel.app/).
 
 ## Contributing
 
