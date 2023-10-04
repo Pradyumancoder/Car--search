@@ -159,7 +159,7 @@ function SellarCar({ searchText }) {
     );
     setCarItems(filteredItems);
     setCurrentPage(1); // Reset to the first page when the search text changes
-  }, [searchText, carItems]);
+  }, []);
 
   // Calculate the index range for the current page
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -170,6 +170,7 @@ function SellarCar({ searchText }) {
 
   // Function to handle page navigation
   const handlePageChange = (newPage) => {
+    console.log(newPage)
     setCurrentPage(newPage);
   };
 
@@ -227,8 +228,9 @@ function SellarCar({ searchText }) {
             </div>
           ))}
         </div>
-        <div className='pagination'>
+        <div className='flex gap-10 justify-center mt-10'>
           <button
+          className='bg-slate-700 p-2 text-white'
             onClick={() => handlePageChange(currentPage - 1)}
             disabled={currentPage === 1}
           >
@@ -236,16 +238,19 @@ function SellarCar({ searchText }) {
           </button>
           {Array.from({ length: totalPages }).map((_, index) => (
             <button
+              
               key={index}
               onClick={() => handlePageChange(index + 1)}
-              className={currentPage === index + 1 ? 'active' : ''}
+              className={currentPage === index + 1 ? ' px-2 text-white bg-slate-500 border-solid border-2' : ' px-2 text-black'}
             >
               {index + 1}
             </button>
           ))}
           <button
+            className='bg-slate-700 p-2 text-white '
             onClick={() => handlePageChange(currentPage + 1)}
-            disabled={currentPage === totalPages}
+            disabled={currentPage === totalPages? true:false}
+            
           >
             Next
           </button>
