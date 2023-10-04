@@ -6,14 +6,11 @@ function Car() {
   return (
     <div>
 
-      <div className='h-[1000px] w-[100%] border border-black m-auto bg-[#EDEFF6] '>
+      <div className='h-[1500px] w-[100%] m-auto bg-[#EDEFF6] '>
         <div>
           <Navbar />
         </div>
-        
-        <div>
-           <SellarCar/>
-        </div>
+
       </div>
     </div>
   )

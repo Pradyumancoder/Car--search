@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SearchBar from './SearchBar'
+import SellarCar from './SellarCar';
 
 
 function Navbar() {
+  const [searchText, setSearchText] = useState('');  // <-- This line has an issue
+
+  const handleSearchTextChange = (newSearchText) => {
+    setSearchText(newSearchText);
+  };
+
   return (
     <div>
       <div className='h-[45px] w-[90%] border  bg-[#EDEFF6] shadow-md m-auto'>
 
         <div className='flex h-[40px] w-[500px]  gap-5 ml-[50px] '>
           <div className='mt-[3]'>
-           <SearchBar/>
+          <SearchBar onSearchTextChange={handleSearchTextChange} />
           </div>
 
           <div>
@@ -40,6 +47,10 @@ function Navbar() {
             </select>
           </div>
         </div>
+      </div>
+
+      <div>
+       <SellarCar searchText={searchText} />
       </div>
     </div>
   )
